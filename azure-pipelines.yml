@@ -1,6 +1,6 @@
 # https://learn.microsoft.com/azure/devops/pipelines/ecosystems/android
 pool:
-  vmImage: 'macOS-latest'
+  name: 'mydockeragent'
 
 steps:
 - task: Gradle@2

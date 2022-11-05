@@ -1,6 +1,6 @@
 # https://learn.microsoft.com/azure/devops/pipelines/ecosystems/android
 pool:
-  vmImage: 'macOS-latest'
+  vmImage: 'ubuntu 20.04'
 
 steps:
 - task: Gradle@2
